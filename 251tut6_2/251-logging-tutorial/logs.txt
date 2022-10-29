@@ -1,0 +1,12 @@
+2 [main] INFO FILE - import data from src/resources/transactions1.csv
+42 [main] INFO FILE - import data from src/resources/transactions2.csv
+43 [main] INFO FILE - import data from src/resources/transactions3.csv
+46 [main] INFO FILE - import data from src/resources/transactions4.csv
+48 [main] WARN FILE - file src/resources/transactions4.csv does not exist - skip
+java.io.FileNotFoundException: src\resources\transactions4.csv (系统找不到指定的文件。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at loggingTutorial.MergeTransactions.readData(MergeTransactions.java:102)
+	at loggingTutorial.MergeTransactions.main(MergeTransactions.java:64)
